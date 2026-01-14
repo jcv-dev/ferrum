@@ -23,7 +23,7 @@ A lightweight, self-hosted music streaming server built with Rust. Stream your l
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ferrum.git
+git clone https://github.com/jcv-dev/ferrum.git
 cd ferrum
 
 # Create environment file
@@ -44,7 +44,7 @@ docker-compose logs -f
 cargo --version
 
 # Clone and build
-git clone https://github.com/yourusername/ferrum.git
+git clone https://github.com/jcv-dev/ferrum.git
 cd ferrum
 cargo build --release
 
