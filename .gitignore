@@ -1,2 +1,39 @@
-/target
+# Build artifacts
+/target/
+
+# Music files (sample directory structure kept)
 music/*
+!music/.gitkeep
+
+# Environment files (keep example)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Data directory (runtime generated)
+/data/
+
+# IDE/Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
